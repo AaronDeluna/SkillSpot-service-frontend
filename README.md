@@ -16,14 +16,16 @@ CSS
 
 ## Клонируйте репозиторий:
 
-bash
 Копировать код
+```bash
 git clone https://github.com/yourusername/BreadcrumbsSkillSpot-service-frontend.git
+```
 Перейдите в директорию проекта:
 
-bash
 Копировать код
+```bash
 cd BreadcrumbsSkillSpot-service-frontend
+```
 Откройте index.html в вашем браузере для просмотра сайта.
 
 ## Структура проекта
