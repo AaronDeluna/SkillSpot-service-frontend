@@ -39,12 +39,14 @@
                     </ul>
                 </nav>
             </div>
-            <div class="header__container__button">
-                <button class="header__container__button-1">Sing in</button>
-                <button class="header__container__button-2">Login</button>
+            <div class="header__container__button" id="headerButtons">
+                <button class="header__container__button-1" onclick="signIn()">Sing in</button>
+                <button class="header__container__button-2" onclick="login()">Login</button>
             </div>
         </div>
     </header>
+
+    <div class="notification-container" id="notificationContainer"></div>
 
     <main class="main">
         <section class="wellcome">
@@ -136,7 +138,7 @@
                 <img class="users__content__img" src="./img/team__work.png" alt="">
                 <div class="users__content__text">
                     <h1 class="users__content__text__title">Почему в нашем сервисе заинтересованы люди</h1>
-                    <p class="users__content__text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae nobis nesciunt distinctio sapiente earum alias voluptas, quis voluptatibus? Doloremque porro.</p>
+                    <p class="users__content__text__desc">Мы предоставляем удобную платформу, где можно найти идеального исполнителя для решения профессиональных задач, доверяясь проверенным отзывам и опыту других пользователей.</p>
                     <div class="user__chack__cart">
                         <div class="users__content__text__chek__boks">
                             <img src="./img/chack__img.png" alt="">
@@ -324,4 +326,5 @@
     </footer>
     
 </body>
+<script src="./js/auth.js"></script>
 </html>

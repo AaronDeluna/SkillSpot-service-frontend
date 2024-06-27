@@ -110,6 +110,54 @@ ul {
     background-color: #18216D;
 }
 
+.header__username {
+    font-weight: bold;
+    margin-right: 30px;
+    transition: color 0.3s ease-in-out; /* Плавное изменение цвета текста */
+}
+
+.header__logout-button {
+    font-size: 17px;
+    font-weight: 500;
+    width: 136px;
+    height: 52px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out; /* Плавное изменение цвета фона */
+}
+
+.header__logout-button:hover {
+    background-color: #d32f2f;
+}
+
+
+/* notification-container */
+
+
+.notification-container {
+    font-size: 24px;
+    font-weight: 500;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b6d0f8;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    display: none; /* Начально скрываем */
+    z-index: 1000; /* Выше основного контента */
+}
+
+.notification-container.show {
+    display: block; /* Показываем уведомление */
+}
+
+
 
 /* wellcome content */
 
@@ -314,7 +362,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 130px auto;
+    margin: 20px auto;
 }
 
 .users__content__img {
@@ -383,7 +431,7 @@ ul {
 
 
 .pricing .container {
-    margin: 190px auto;
+    margin: 120px auto;
 }
 
 .pricing__text {
